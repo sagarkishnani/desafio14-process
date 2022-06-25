@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   mongodb: {
     cnxStr: `mongodb+srv://admin-sagar:${process.env.MONGOPASS}@cluster0.lyjw7.mongodb.net/?retryWrites=true&w=majority`,
   },
